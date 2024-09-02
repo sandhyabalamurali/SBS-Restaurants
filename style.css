@@ -76,7 +76,7 @@ header span:last-child {
 }
 
 .menu a {
-    padding-right: 30px;
+    padding-right: 40px;
     text-decoration: none;
     color: black;
     font-size: 18px;
@@ -85,8 +85,10 @@ header span:last-child {
 }
 .menu a:hover{
     background-color:#f2a968;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
+    transform: scale(1.2);
+    border-radius: 20px;
 }
 
 .hover {
@@ -135,7 +137,7 @@ header span:last-child {
 .card h3 {
     margin-top: 0;
 }
-.card a , .large-box a ,.small-box a{
+.card a , .large-box a ,.small-box a,.bottom-box1 a,.bottom-box2 a{
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
@@ -184,7 +186,7 @@ header span:last-child {
     margin-left: 69px;
     
 }
-.small-box {
+.small-box{
     background-color: #eeb482;
     padding: 5px;
     position: relative;
